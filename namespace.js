@@ -15,8 +15,8 @@ var SAMA0059 = {
         
          
         function Color(ev) {
-            this.style.borderColor = "red";
-            this.style.backgroundColor = "blue";
+            box.style.borderColor = "red";
+            box.style.backgroundColor = "blue";
         }
         function highlight(ev){
             ev.currentTarget.classList.toggle ("highlight");
