@@ -7,7 +7,7 @@ var SAMA0059 = {
     document.getElementById("boxes").appendChild(div);
    
         
-    div.addEventListener("Click", Color_box);
+    div.addEventListener("click", Color_box);
     
     div.addEventListener("mouseover", highlight);
         
