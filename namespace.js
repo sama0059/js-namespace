@@ -7,15 +7,15 @@ var SAMA0059 = {
     document.getElementById("boxes").appendChild(div);
    
         
-    div.addEventListener("click", Color_box);
+    div.addEventListener("click", Color);
     
     div.addEventListener("mouseover", highlight);
         
     div.addEventListener("mouseout", highlight);
         
          
-        function Color_box(ev) {
-            this.style.borderColor ="red";
+        function Color(ev) {
+            this.style.borderColor = "red";
             this.style.backgroundColor = "blue";
         }
         function highlight(ev){
